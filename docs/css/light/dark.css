@@ -2559,10 +2559,13 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 
 html {
   background: #0c1021;
-  overflow: hidden; }
+  overflow: auto; }
 
 body {
   color: white; }
+
+.navbar-burger {
+  color: #8DA6CE; }
 
 .navbar-menu {
   padding: 0;

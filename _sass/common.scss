@@ -6,11 +6,15 @@
 
 html {
   background: $background;
-  overflow: hidden;
+  overflow: auto;
 }
 
 body {
   color: $text;
+}
+
+.navbar-burger {
+  color: $primary;
 }
 
 .navbar-menu {

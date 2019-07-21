@@ -38,7 +38,7 @@
   <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item {% if page.title == 'Home' %}navbar-selected{% endif %}" href="{% if page.theme == 'light' %}/light{% endif %}/index.html">
+          <a class="navbar-item {% if page.title == 'Home' %}navbar-selected{% endif %}" href="{{site.url}}{% if page.theme == 'light' %}/light{% endif %}/index.html">
             <p style="font-size: larger; font-family: 'Fira Code'"><span class="has-text-primary">code</span>::<span class="has-text-info" style="font-family: 'Fira Code Light'">art</span></p>
           </a>
       
@@ -54,7 +54,7 @@
             {% assign sorted_pages = site.pages | sort:"order" %}
             {% for p in sorted_pages %}
             {% if p.nav and p.theme == page.theme %}
-            <a class="navbar-item {% if p.title == page.title %}navbar-selected{% endif %}" href="{{site.url}}/{{p.url}}">
+            <a class="navbar-item {% if p.title == page.title %}navbar-selected{% endif %}" href="{{site.url}}{{p.url}}">
               <span class="icon"><i class="fas {{p.icon}} fa-fw"></i></span><span>{{p.title}}</span>
             </a>
             {% endif %}

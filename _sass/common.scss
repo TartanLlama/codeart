@@ -19,7 +19,12 @@ body {
 
 .navbar-menu {
   padding: 0;
-  width: 50%;
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar-menu.is-active {
+    position: absolute;
+  }
 }
 
 #main {

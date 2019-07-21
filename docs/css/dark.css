@@ -2568,9 +2568,11 @@ body {
   color: #8DA6CE; }
 
 .navbar-menu {
-  padding: 0;
-  width: 50%; }
+  padding: 0; }
 
+@media screen and (max-width: 1023px) {
+  .navbar-menu.is-active {
+    position: absolute; } }
 #main {
   line-height: 1.3em;
   font-family: "Fira Code"; }

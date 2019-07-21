@@ -1,0 +1,73 @@
+@import "./bulma-0.7.5/sass/utilities/_all.sass";
+@import "./bulma-0.7.5/sass/components/navbar.sass";
+@import "./bulma-0.7.5/sass/elements/button.sass";
+@import "./bulma-0.7.5/sass/base/_all.sass";
+@import "./bulma-0.7.5/sass/elements/icon.sass";
+
+html {
+  background: $background;
+}
+
+body {
+  color: $text;
+}
+
+.navbar-menu {
+  padding: 0;
+  width: 50%;
+}
+
+#main {
+  line-height: 1.3em;
+  font-family: "Fira Code";
+}
+
+.txt-line {
+  display: flex;
+}
+
+.line-num {
+  border-right: $text solid 1px;
+  width: 2.5em;
+  margin-right: 1em;
+  text-align: right;
+  opacity: 0.5;
+  padding-right: 0.5em;
+}
+
+.txt-line p {
+  width: 100%;
+}
+.button {
+  text-decoration: none;
+}
+
+.navbar {
+  font-family: "Fira Code";
+  background: $navbar-background;
+}
+
+.navbar-item {
+  background: $navbar-inactive;
+  color: grey;
+  text-decoration: none;
+  border-right: $navbar-border solid 1px;
+}
+
+a.navbar-item:hover {
+  color: $info;
+  background: transparent;
+}
+
+.navbar-selected {
+  background: $background;
+  color: $text;
+}
+
+.navbar-item .icon {
+  margin-right: 5px;
+}
+
+a {
+  text-decoration: underline;
+}

@@ -1,0 +1,16 @@
+---
+---
+
+$primary: #8DA6CE;
+$info: #FF6400;
+$link: $primary;
+$link-hover: $info;
+
+$text: white;
+$background: rgb(12, 16, 33);
+
+$navbar-background: #242424;
+$navbar-inactive: hsl(0, 0%, 21%);
+$navbar-border: black;
+
+@import "common.scss"

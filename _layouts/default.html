@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>code::art</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css">    
+    <script>document.addEventListener('DOMContentLoaded', () => {
+
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+      
+          // Add a click event on each of them
+          $navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+      
+              // Get the target from the "data-target" attribute
+              const target = el.dataset.target;
+              const $target = document.getElementById(target);
+      
+              // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+              el.classList.toggle('is-active');
+              $target.classList.toggle('is-active');
+      
+            });
+          });
+        }
+      
+      });
+      </script>
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{site.url}}/css/{{page.theme}}.css">
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item {% if page.title == 'Home' %}navbar-selected{% endif %}" href="{% if page.theme == 'light' %}/light{% endif %}/index.html">
+            <p style="font-size: larger; font-family: 'Fira Code'"><span class="has-text-primary">code</span>::<span class="has-text-info" style="font-family: 'Fira Code Light'">art</span></p>
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="codeartNav">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="codeartNav" class="navbar-menu">
+          <div class="navbar-start">
+            {% assign sorted_pages = site.pages | sort:"order" %}
+            {% for p in sorted_pages %}
+            {% if p.nav and p.theme == page.theme %}
+            <a class="navbar-item {% if p.title == page.title %}navbar-selected{% endif %}" href="{{site.url}}/{{p.url}}">
+              <span class="icon"><i class="fas {{p.icon}} fa-fw"></i></span><span>{{p.title}}</span>
+            </a>
+            {% endif %}
+            {% endfor %}
+          </div>
+
+          <div class="navbar-end">
+              <div class="navbar-item">
+                  {% if page.theme == "dark" %}
+                  {% assign split_url = page.url | split: '/' %}
+                  <a class="button" href="{{split_url | pop | push: 'light' | push: split_url.last | join: '/'}}">Light Theme</a>
+                  {% else %}
+                  <a class="button" href="{{page.url | remove: 'light/'}}">Dark Theme</a>
+                  {% endif %}
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="section" id="main">
+        {{content}}
+      </section>
+  </body>
+</html>

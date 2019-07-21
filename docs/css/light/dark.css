@@ -2558,7 +2558,8 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     width: 3rem; }
 
 html {
-  background: #0c1021; }
+  background: #0c1021;
+  overflow: hidden; }
 
 body {
   color: white; }

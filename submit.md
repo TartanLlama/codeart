@@ -10,7 +10,7 @@ Submit
 <p>======</p>
 <p></p>
 
-*Submissions are not yet open*
+*Submissions will open in August 2019 and will run for 45 days*
 <p></p>
 Please read the submission guidelines below very carefully.
 

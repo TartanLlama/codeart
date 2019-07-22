@@ -2619,7 +2619,7 @@ a {
   text-decoration: underline; }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   font-family: 'Fira Code';
   color: white;

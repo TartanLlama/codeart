@@ -18,7 +18,7 @@ Any pieces which do not follow the rules will be rejected.
 
 We especially encourage submissions from people from groups which are underrepresented in tech.
 
-We will not consider work with sexist, racist, homophobic, xenophobic, or ableist content.
+We will not consider work with sexist, racist, homophobic, xenophobic, ableist, or otherwise bigoted content.
 <p></p>
 What we are looking for
 <p>-----------------------</p>
@@ -29,22 +29,20 @@ The artistic qualities can be aesthetic, technical, emotional, or whatever else 
 
 We want pieces which surprise us and challenge our notions of both <span class="has-text-primary">code</span> and <span class="has-text-info">art</span>.
 
+Any programming language may be used, even esoteric languages or ones which don't exist yet. You may also mix languages within a piece.
+
+Your <span class="has-text-primary">code</span> does *not* need to compile or run. It might not even be text: feel free to submit images.
+
+For some ideas, have a look at [code {poems}](code-poems.com), [Source Code Poetry](https://www.sourcecodepoetry.com/), and [./code --poetry](http://code-poetry.com/), but do not limit yourself to the styles which are featured in these places.
+
 <p></p>
 Submission guidelines:
 <p></p>
-\* Submit *at most* three <span class="has-text-primary">code</span> snippets.
+\* Submit *at most* three pieces.
 
-\* Snippets are limited to 45 columns by 31 lines.
+\* Each piece must fit on a page of A5 paper. Text will be rendered in Fira Code 10pt unless specified by you.
 
-\* All pieces must be in a single document.
-
-\* Acceptable formats: .doc, .docx, .md, .txt.
-
-\* Pieces must be clearly separated and titled.
-
-\* Any programming language may be used (preferably real ones, but not necessarily).
-
-\* You may mix languages within a piece.
+\* All pieces must be in a single .doc, .docx, .md, .txt, or .pdf file.
 
 \* Do not include any identifying information in your submitted document or its title.
 

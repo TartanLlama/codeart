@@ -2617,4 +2617,14 @@ a.navbar-item:hover {
 
 a {
   text-decoration: underline; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  font-family: 'Fira Code';
+  color: white;
+  width: 100%;
+  background: #363636;
+  font-size: small;
+  padding-left: 10px; }
 </p></body></html>

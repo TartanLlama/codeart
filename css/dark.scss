@@ -2,7 +2,7 @@
 ---
 
 $primary: #8DA6CE;
-$info: #FF6400;
+$info: #FF7900;
 $link: $primary;
 $link-hover: $info;
 
@@ -11,6 +11,7 @@ $background: rgb(12, 16, 33);
 
 $navbar-background: #242424;
 $navbar-inactive: hsl(0, 0%, 21%);
+$navbar-inactive-text: #a0a0a0;
 $navbar-border: black;
 
 @import "common.scss"

@@ -42,7 +42,7 @@ body {
   width: 2.5em;
   margin-right: 1em;
   text-align: right;
-  opacity: 0.5;
+  opacity: 0.6;
   padding-right: 0.5em;
 }
 
@@ -60,7 +60,7 @@ body {
 
 .navbar-item {
   background: $navbar-inactive;
-  color: grey;
+  color: $navbar-inactive-text;
   text-decoration: none;
   border-right: $navbar-border solid 1px;
 }
@@ -87,9 +87,9 @@ footer {
   position: fixed;
   bottom: 0;
   font-family: 'Fira Code';
-  color: white;
+  color: $text;
   width: 100%;
-  background: #363636;
+  background: $navbar-inactive;
   font-size: small;
   padding-left: 10px;
 }

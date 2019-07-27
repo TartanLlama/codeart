@@ -7,6 +7,7 @@ order: 3
 ---
 
 About
+=====
 <p>=====</p>
 <p></p>
 <span class="has-text-primary">code</span>::<span class="has-text-info">art</span> is an <span class="has-text-info">art</span> journal which publishes <span class="has-text-primary">code</span>.

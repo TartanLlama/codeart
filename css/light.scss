@@ -1,8 +1,8 @@
 ---
 ---
 
-$primary: #d33682;
-$info: #6c71c4;
+$primary: #9c004b;
+$info: #34398C;
 $link: $primary;
 $link-hover: $info;
 
@@ -11,6 +11,7 @@ $background: #fdf6e3;
 
 $navbar-background: #DDD6C1AA;
 $navbar-inactive: #D9D2C2;
+$navbar-inactive-text: #454545;
 $navbar-border: #DDD6C1;
 
 @import "common.scss"

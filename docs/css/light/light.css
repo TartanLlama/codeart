@@ -2575,7 +2575,8 @@ body {
     position: absolute; } }
 #main {
   line-height: 1.3em;
-  font-family: "Fira Code"; }
+  font-family: "Fira Code";
+  padding-bottom: 1.5em; }
 
 .txt-line {
   display: flex; }

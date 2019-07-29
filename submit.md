@@ -47,6 +47,8 @@ Submission guidelines:
 
 \* Authors must hold the copyright of the submitted <span class="has-text-primary">code</span>.
 <p></p>
+If you have any questions, do not hesitate to contact us at [codeartjournal@gmail.com](mailto:codeartjournal@gmail.com).
+
 We intend to respond to all submissions within a month of the submission deadline.
 
 Authors of selected pieces will be given a contributors copy.

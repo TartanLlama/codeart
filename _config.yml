@@ -27,3 +27,4 @@ markdown: kramdown
 theme: minima
  
 destination: ./docs/
+permalink: /:title/

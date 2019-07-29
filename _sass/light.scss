@@ -1,0 +1,16 @@
+$primary: #9c004b;
+$info: #7049E6;
+$link: $primary;
+$link-hover: $info;
+
+$text: black;
+$background: #fdf6e3;
+
+$navbar-background: #DDD6C1AA;
+$navbar-inactive: #D9D2C2;
+$navbar-inactive-text: #454545;
+$navbar-border: #DDD6C1;
+
+$slider-background: #F4F4E0C9;
+
+@import "common.scss"

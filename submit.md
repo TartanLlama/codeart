@@ -9,9 +9,7 @@ order: 2
 Submit
 ======
 <p>======</p>
-<p></p>
 
-*Submissions will open in August 2019 and will run for 45 days*
 <p></p>
 Please read the submission guidelines below very carefully.
 
@@ -34,12 +32,12 @@ Any programming language may be used, even esoteric languages or ones which don'
 
 Your <span class="has-text-primary">code</span> does *not* need to compile or run. It might not even be text: feel free to submit images.
 
-For some ideas, have a look at [code {poems}](code-poems.com), [Source Code Poetry](https://www.sourcecodepoetry.com/), and [./code --poetry](http://code-poetry.com/), but do not limit yourself to the styles which are featured in these places.
+For some ideas, have a look at [code {poems}](http://code-poems.com), [Source Code Poetry](https://www.sourcecodepoetry.com/), and [./code --poetry](http://code-poetry.com/), but do not limit yourself to the styles which are featured in these places.
 
 <p></p>
 Submission guidelines:
 <p></p>
-\* Submit *at most* three pieces.
+\* Submit *at most* three pieces by email to [codeartjournal@gmail.com](mailto:codeartjournal@gmail.com).
 
 \* Each piece must fit on a page of A5 paper. Text will be rendered in Fira Code 10pt unless specified by you.
 
@@ -51,4 +49,4 @@ Submission guidelines:
 <p></p>
 We intend to respond to all submissions within a month of the submission deadline.
 
-Authors of selected pieces will be given a contributors copy and an honorarium of £10.
+Authors of selected pieces will be given a contributors copy.

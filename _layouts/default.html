@@ -39,13 +39,13 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/{{page.theme}}.css">
+    <link rel="stylesheet" href="/css/{{page.theme}}{{page.font}}.css">
   </head>
   <body>
     <div id="container">
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item {% if page.title == 'Home' %}navbar-selected{% endif %}" href="{% if page.theme == 'light' %}/light{% endif %}/index.html">
+          <a class="navbar-item {% if page.title == 'Home' %}navbar-selected{% endif %}" href="{{page.themefolder}}/index.html">
             <p style="font-size: larger; font-family: 'Fira Code'"><span class="has-text-primary">code</span>::<span class="has-text-info" style="font-family: 'Fira Code Light', 'Fira Code'">art</span></p>
           </a>
       
@@ -60,7 +60,7 @@
           <div class="navbar-start">
             {% assign sorted_pages = site.pages | sort:"order" %}
             {% for p in sorted_pages %}
-            {% if p.nav and p.theme == page.theme %}
+            {% if p.nav and p.theme == page.theme and p.font == page.font %}
             <a class="navbar-item {% if p.title == page.title %}navbar-selected{% endif %}" href="{{p.url}}">
               <span class="icon"><i class="fas {{p.icon}} fa-fw"></i></span><span>{{p.title}}</span>
             </a>
@@ -69,14 +69,56 @@
           </div>
 
           <div class="navbar-end">
-              <div class="navbar-item">
+              <div class="navbar-item slider-nav">
                   {% if page.theme == "dark" %}
-                  {% assign split_url = page.url | split: '/' %}
-                  <a class="button" href="{{split_url | pop | push: 'light' | push: split_url.last | join: '/'}}">Light Theme</a>
+                    {% if page.font == "mono" %}
+                      {% assign split_url = page.url | split: '/' %}
+                      {% assign url = split_url | pop | push: 'lightmono' | push: split_url.last | join: '/' %}
+                      {% assign checked = false %}
+                    {% else %}
+                      {% assign url = page.url | replace: 'darkprop/', 'lightprop/' %}
+                      {% assign checked = false %}
+                    {% endif %}
                   {% else %}
-                  <a class="button" href="{{page.url | remove: 'light/'}}">Dark Theme</a>
+                    {% if page.font == "mono" %}
+                      {% assign url = page.url | remove: 'lightmono/' %}
+                      {% assign checked = true %}
+                    {% else %}
+                      {% assign url = page.url | replace: 'lightprop/', 'darkprop/' %}
+                      {% assign checked = true %}
+                    {% endif %}
                   {% endif %}
+                  <span class="icon"><i class="fas fa-moon"></i></span>
+                  <label class="switch">
+                    <a href="{{url}}"><span class="slider {%if checked==true%}checked{%endif%}"></span></a>
+                  </label>
+                  <span class="icon"><i class="fas fa-sun"></i></span>
             </div>
+            <div class="navbar-item slider-nav">
+                {% if page.font == "mono" %}
+                  {% if page.theme == "dark" %}
+                    {% assign split_url = page.url | split: '/' %}
+                    {% assign url = split_url | pop | push: 'darkprop' | push: split_url.last | join: '/' %}
+                    {% assign checked = false %}
+                  {% else %}
+                    {% assign url = page.url | replace: 'lightmono/', 'lightprop/' %}
+                    {% assign checked = false %}
+                  {% endif %}
+                {% else %}
+                  {% if page.theme == "dark" %}
+                    {% assign url = page.url | remove: 'darkprop/' %}
+                    {% assign checked = true %}
+                  {% else %}
+                    {% assign url = page.url | replace: 'lightprop/', 'lightmono/' %}
+                    {% assign checked = true %}
+                  {% endif %}
+                {% endif %}
+                <span style="font-family: 'Fira Code'; padding-right: 5px">Aa0 </span>
+                <label class="switch">
+                  <a href="{{url}}"><span class="slider {%if checked==true%}checked{%endif%}"></span></a>
+                </label>
+                <span style="font-family: 'Roboto'; padding-left: 5px;"> Aa0</span>
+          </div>
           </div>
         </div>
       </nav>

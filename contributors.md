@@ -10,4 +10,4 @@ Contributors
 ============
 <p>============</p>
 <p></p>
-Your name can be here if you [submit](/submit)!
+Your name can be here if you [submit](submit)!

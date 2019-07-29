@@ -25,11 +25,15 @@ body {
   .navbar-menu.is-active {
     position: absolute;
   }
+
+  .slider-nav {
+    text-align: center;
+  }
 }
 
 #main {
   line-height: 1.3em;
-  font-family: "Fira Code";
+  font-family: $font;
   padding-bottom: 1.5em;
 }
 
@@ -54,7 +58,7 @@ body {
 }
 
 .navbar {
-  font-family: "Fira Code";
+  font-family: $font;
   background: $navbar-background;
 }
 
@@ -96,4 +100,50 @@ footer {
   background: $navbar-inactive;
   font-size: small;
   padding-left: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $slider-background;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: $navbar-inactive-text;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider.checked {
+  background-color: $slider-background;
+}
+
+.slider.checked::before {
+  left: 30px;
+}
+
+.switch a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }

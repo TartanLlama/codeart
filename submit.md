@@ -41,7 +41,7 @@ Submission guidelines:
 
 \* Each piece must fit on a page of A5 paper. Text will be rendered in Fira Code 10pt unless specified by you.
 
-\* All pieces must be in a single .doc, .docx, .md, .txt, or .pdf file.
+\* Pieces must be submitted in .doc, .docx, .txt, .pdf, or image format. Do not send archives. Ideally send only one file with all of your pieces.
 
 \* Do not include any identifying information in your submitted document or its title.
 

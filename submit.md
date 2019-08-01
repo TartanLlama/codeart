@@ -17,7 +17,7 @@ Any pieces which do not follow the rules will be rejected.
 
 We especially encourage submissions from people from groups which are underrepresented in tech.
 
-We will not consider work with sexist, racist, homophobic, xenophobic, ableist, or otherwise bigoted content.
+We will not consider work with sexist, racist, homophobic, ableist, or otherwise bigoted content.
 <p></p>
 What we are looking for
 <p>-----------------------</p>
@@ -33,6 +33,8 @@ Any programming language may be used, even esoteric languages or ones which don'
 Your <span class="has-text-primary">code</span> does *not* need to compile or run. It might not even be text: feel free to submit images.
 
 For some ideas, have a look at [code {poems}](http://code-poems.com), [Source Code Poetry](https://www.sourcecodepoetry.com/), and [./code --poetry](http://code-poetry.com/), but do not limit yourself to the styles which are featured in these places.
+
+Give it a go; you might surprise yourself!
 
 <p></p>
 Submission guidelines:

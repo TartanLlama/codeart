@@ -47,7 +47,7 @@ Submission guidelines:
 
 \* Pieces must be submitted in .doc, .docx, .txt, .pdf, or image format. Do not send archives. Ideally send only one file with all of your pieces.
 
-\* Do not include any identifying information in your submitted document or its title.
+\* Do not include any identifying information (name, email, etc.) in your submitted document or its filename (this is so that submissions can be judged blind).
 
 \* Authors must hold the copyright of the submitted <span class="has-text-primary">code</span>.
 <p></p>

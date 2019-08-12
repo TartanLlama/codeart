@@ -11,6 +11,8 @@ Submit
 <p>======</p>
 
 <p></p>
+_Submissions are currently open until 2019-09-30._
+
 Please read the submission guidelines below very carefully.
 
 Any pieces which do not follow the rules will be rejected.

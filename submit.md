@@ -11,7 +11,7 @@ Submit
 <p>======</p>
 
 <p></p>
-_Submissions are currently open until 2019-09-30._
+Submissions are currently open until 2019-09-30.
 
 Please read the submission guidelines below very carefully.
 

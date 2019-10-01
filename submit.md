@@ -11,7 +11,7 @@ Submit
 <p>======</p>
 
 <p></p>
-Submissions are currently open until 2019-09-30.
+Submissions are currently closed. They will be reopened after the release of our first issue, which is targeting December 2019.
 
 Please read the submission guidelines below very carefully.
 

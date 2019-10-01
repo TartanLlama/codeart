@@ -13,6 +13,8 @@ Submit
 <p></p>
 Submissions are currently closed. They will be reopened after the release of our first issue, which is targeting December 2019.
 
+This page will stay up for those interested in submitting next time.
+
 Please read the submission guidelines below very carefully.
 
 Any pieces which do not follow the rules will be rejected.

@@ -14,7 +14,7 @@ Issue 0
 <p>-------</p>
 <p></p>
 
-Alice Strete
+Alice Strete: Alice Strete (1991, RO/NL) is an artist, researcher and, otherwise, person interested in the intricate relationship between humans and the technologies they surround themselves with. Latest projects can be found at [alicestrete.me](http://alicestrete.me).
 <p></p>
 Ania Kapuścińska: Ania is a software engineer, currently working at Thought Machine.
 Loves sharing knowledge, that means both learning new things and

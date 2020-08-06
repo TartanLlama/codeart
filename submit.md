@@ -11,7 +11,7 @@ Submit
 <p>======</p>
 
 <p></p>
-Submissions are open for our second issue until 2020-10-31.
+Submissions are open for our third issue until 2020-10-31.
 
 Please read the submission guidelines below very carefully.
 

@@ -10,9 +10,9 @@ layout: default
 
 <span class="has-text-primary">code</span>::<span class="has-text-info">art</span> is an <span class="has-text-info">art</span> journal which publishes <span class="has-text-primary">code</span>.
 <p></p>
-Our first issue is available at our [online store](https://codeartjournal.bigcartel.com/).
+Our second issue is now available at our [online store](https://codeartjournal.bigcartel.com/).
 
-[Submissions](../submit) for our second issue are open until 2020-04-30.
+[Submissions](../submit) for our third issue are open until 2020-10-31.
 
 Stay up-to-date here, by subscribing below, or following [@codeart_journal](https://twitter.com/codeart_journal) on Twitter.
 

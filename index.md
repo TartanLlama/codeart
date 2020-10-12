@@ -12,7 +12,7 @@ layout: default
 <p></p>
 Our second issue is now available at our [online store](https://codeartjournal.bigcartel.com/).
 
-[Submissions](../submit) for our third issue are open until 2020-10-31.
+[Submissions](../submit) for our third issue are open until we fill it.
 
 Stay up-to-date here, by subscribing below, or following [@codeart_journal](https://twitter.com/codeart_journal) on Twitter.
 

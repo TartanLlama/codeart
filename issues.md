@@ -40,6 +40,6 @@ Size: A5
 Pages: 36
 <p></p>
 
-[Buy in print](https://codeartjournal.bigcartel.com/product/code-art-0)
+Print copies of code::art::0 are now sold out.
 
 [Download free PDF](/pdfs/issue0.pdf)

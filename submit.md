@@ -11,7 +11,7 @@ Submit
 <p>======</p>
 
 <p></p>
-Submissions are open for our third issue until 2020-10-31.
+Submissions are open for our third issue until we fill it.
 
 Please read the submission guidelines below very carefully.
 
@@ -41,7 +41,7 @@ Submission guidelines:
 <p></p>
 \* Submit *at most* three pieces by email to [codeartjournal@gmail.com](mailto:codeartjournal@gmail.com).
 
-\* Each piece must fit on a page of A5 paper. Text will be rendered in Fira Code 10pt unless specified by you.
+\* Pieces must be legible on (potentially multiple) A5 pages. Text will be rendered in Fira Code 10pt unless specified by you.
 
 \* Pieces must be submitted in .doc, .docx, .txt, .pdf, or image format. PDF is preferred. Do not send archives. Ideally send only one file with all of your pieces.
 
